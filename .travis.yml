@@ -1,14 +1,17 @@
 language: groovy
 sudo: false
 
+jdk:
+  - oraclejdk8
+
+before_cache:
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+
 cache:
   directories:
-    - $HOME/.gradle
-
-jdk:
-- oraclejdk7
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
 
 script:
-- ./gradlew ci
-- ./gradlew -p examples build
-
+  - ./gradlew ci
+  - ./gradlew -p examples build
