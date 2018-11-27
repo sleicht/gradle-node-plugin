@@ -2,8 +2,8 @@
 
 # Gradle Plugin for Node
 
-[![Build Status](https://travis-ci.org/srs/gradle-node-plugin.svg?branch=master)](https://travis-ci.org/srs/gradle-node-plugin)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/06pg08c36mnes0w3?svg=true)](https://ci.appveyor.com/project/srs/gradle-node-plugin)
+[![Build Status](https://travis-ci.org/sleicht/gradle-node-plugin.svg?branch=master)](https://travis-ci.org/sleicht/gradle-node-plugin)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/r9e7gftlbo25j8lg?svg=true)](https://ci.appveyor.com/project/sleicht/gradle-node-plugin)
 [![License](https://img.shields.io/github/license/srs/gradle-node-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 ![Version](https://img.shields.io/badge/Version-1.2.0-orange.svg)
 
